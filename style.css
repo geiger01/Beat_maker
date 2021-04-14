@@ -142,3 +142,119 @@ select {
     transform: scale(1.2);
   }
 }
+
+
+/* -------------------------------------------------------MEDIA QUERY -------------------------------------------------------------*/
+@media only screen and (max-width: 1300px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem 0.5rem;
+  }
+  .play {
+    padding: 0.5rem 1rem;
+  }
+  .tempo p {
+    margin: 1rem;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem 0.5rem;
+  }
+  .play {
+    padding: 0.5rem 1rem;
+  }
+  .tempo p {
+    margin: 1rem;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem 0.5rem;
+  }
+  .play {
+    padding: 0.5rem 1rem;
+  }
+  .tempo p {
+    margin: 1rem;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.2rem 0.2rem;
+  }
+  .play {
+    padding: 0.5rem 1rem;
+  }
+  .tempo p {
+    margin: 1rem;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+  }
+  .controls {
+    margin: 0 0.7rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .hihat-track,
+  .snare-track,
+  .kick-track {
+    width: 100%;
+
+    margin-top: 3.5rem;
+  }
+}
